@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+ <head>
+  <!--meta is used to specify the character set, page description, keywords, author and viewport-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Practice Website for Pramayuda</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="">
+  <!--link links the html to an external style sheet (css data)-->
+ </head>
+ <body>
+  <p> This is my website with me!</p>
+  <h3 id="image">Inserting Image</h3>
+  <!--Insert image of your royal self-->
+  <img src="./src/image/photo01.png" width="510" alt="Fabulous Photo of the royal Me"/>
+  <!--Image should be written with proper path-->
+  <p>Setting "width" and only the width automatically adjust the "height" of the image to match the width so that the ratio of the image would not get changed. "alt" attribute insert a text that appears when the image failed to load or for visually-impaired user.</p>
+
+  <h3>Lorem Ipsums</h3>
+  <p id="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, voluptates nesciunt expedita labore necessitatibus provident, vel itaque quam voluptas natus inventore deleniti reprehenderit quasi id. Et ipsam dolore voluptatum qui consectetur animi praesentium earum, amet temporibus, expedita rem alias incidunt! Assumenda amet, deleniti, inventore atque at, non magnam esse illum quod fugiat ducimus sequi corporis doloremque. Incidunt consequuntur illo enim dicta rerum quae suscipit? Laboriosam consequuntur natus, provident enim hic, nam amet veritatis sit qui dolor porro optio architecto voluptas sequi eveniet nulla. Soluta tempore eos dignissimos! Ratione aperiam labore ipsa aliquam laudantium asperiores ex natus assumenda error reprehenderit! Aliquid?</p>
+
+  <h3 id="sub_sup">Sub and Sup</h3>
+  <p>Using sub and sup can be used to make effects like <sub>this</sub> or <sup>this</sup>. Sub places the text a few Pixels under the normal line and Sup a few Pixels above the normal line.</p>
+
+  <h3 id="special character">Special Character</h3>
+  <p>Using special character can be achieved using the "&" Symbol for example: &cap; or &copy; or &parallel; like these.</p>
+
+  <h3 id="lists">Lists</h3>
+  <ul>
+   <li>First element</li>
+   <li>Second element</li>
+   <li><a href="./test_.html">So on</a></li>
+  </ul>
+  <p>Unordered list would also be used to make the navigation bar on a website. The difference to an ordered list is that the ordered list looks like:</p><br>
+  <ol>
+   <li>First element</li>
+   <li>Second element
+    <ol>
+     <li>We can make Nested List</li>
+     <li>A list inside a list</li>
+    </ol>
+   </li>
+   <li><a href="./test.html">Or like this</a></li>
+  </ol>
+
+  <h3 id="table">Table</h3>
+  <table>
+   <tr>
+    <th>First Header</th>
+    <th>Second Header</th>
+    <th>Last Header</th>
+   </tr>
+   <tr>
+    <td>Data for the 1. Header</td>
+    <td>Other Data</td>
+    <td>Last Data for this row</td>
+   </tr>
+   <tr>
+    <td>Inserted new Row</td>
+   </tr>
+  </table>
+
+  <h3 id="form">Form</h3>
+  <p>Using Form required the programmer to understand back-end language like javascript or php to get the data sent by forms. Forms written in HTML is only the display of the form, without the ability to use or see the data already sent from the form (Without Back-End)</p>
+  <form action="" method="">
+   <label for="first_label">First Input: </label>
+   <input type="text" name="first_label" id="first_label" value="username"><br>
+   <!--label is used to label a certain input and is connected when the "for" and "id" is similar-->
+   <label for="pass">Password: </label>
+   <input type="password" name="pass" id="pass" value="something"><br>
+   <label for="code_lang">Favourite Coding Language</label><br>
+   <input type="radio" name="code_lang" id="" value="c++">C++
+   <input type="radio" name="code_lang" id="" value="java">Java
+   <input type="radio" name="code_lang" id="" value="python">Python
+   <br>
+   <label for="lang">Known Language</label><br>
+   <input type="checkbox" name="lang" value="c++">C++
+   <input type="checkbox" name="lang" value="java">Java
+   <input type="checkbox" name="lang" value="python">Python
+   <input type="checkbox" name="lang" value="more">Other
+   <br><br>
+   <button type="submit"> submit</button>
+  </form>
+
+
+  <h3>Link</h3>
+  <a href="./test_.html" target="blank">Internal Link</a><br>
+  <a href="https://www.youtube.com/watch?v=mU6anWqZJcc" target="blank">Further Learning with Youtube</a><br>
+  <!--By using the attribute "target", user will open the link on another tab-->
+
+  <h3 id="navi_link">Navigation</h3>
+  <ul>
+   <li><a href="#image">
+    <button>Image</button>
+   </a></li>
+   <li><a href="#lorem"><button>Lorem</button></a></li>
+   <li><a href="#list"><button>List</button></a></li>
+   <li><a href="#table"><button>Table</button></a></li>
+  </ul>
+  
+  
+  <script src="" async defer></script>
+ </body>
+</html>
