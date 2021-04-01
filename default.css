@@ -117,8 +117,8 @@ ul{
     display: block;
     margin: 0 auto;
     object-fit: cover;
-    width: 450px;
-    height: 300px;    
+    width: 150px;
+    height: 75px;    
     border: 2px solid var(--borderColor);
 }
 
