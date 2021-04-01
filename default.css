@@ -106,8 +106,8 @@ ul{
 
 .left-column{
     grid-area: left-column;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    display: grid;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
     padding-right: 15px;
     padding-left: 15px;
     align-content: center;
