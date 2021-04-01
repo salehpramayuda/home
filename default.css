@@ -117,8 +117,7 @@ ul{
     display: block;
     margin: 0 auto;
     object-fit: cover;
-    width: 150px;
-    height: 75px;    
+    max-height: 15em;    
     border: 2px solid var(--borderColor);
 }
 
