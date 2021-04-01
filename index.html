@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="default.css">
     </head>
     <body>
-        <section class="s1">
+        <section class="s1" style="background-image: url(src/pexels-dương-nhân-1529881.jpg); background-size: 100%;">
             <div class="main-container">
                 <div class="greeting-wrapper">
                     <h1>Hi! This is an empty GitHub owned by Pramayuda!</h1>
@@ -16,25 +16,37 @@
 
                 <div class="intro-wrapper">
                     <div class="nav-wrapper">
-                        <a href="bsp_quiz.htm">Bsp Quiz</a>
-                        <a href="bsp_quiz_2.htm">Bsp Quiz 2 (Lückentext!)</a>
+                        <div class="home-navigation">
+                            <ul id="navigation">
+                                <li><a href="#about-me">About Me</a></li>
+                                <li>|</li>
+                                <li><a href="#portofolio">Portofolio</a></li>
+                                <li>|</li>
+                                <li><a href="#"></a>To GitHub</li>
+
+                            </ul>
+                        </div>
+                        <ul id="navigation">
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
                     </div>
                     <div class="left-column">
-                        <div></div><div></div><div></div><div></div>
-                        <img src="src/photo01.png" alt="Handsome Photo of me" width="95%">
+                        <img id="profile-pic" src="src/photo02.jpg" alt="Handsome Photo of me">
                     </div>
 
                     <div class="right-column">
-                        <div></div>
-                        <p>Insert overview of my fucked up life</p>
-                        <div></div>
+                        <div id="preview">
+                            <h4>This guy on the left</h4>
+                            <p>insert overview of fucked up life</p>
+                        </div>
                     </div>
                 </div>
             </div>
+            <p></p>
         </section>
 
         <section class="s2">
-            <div class="main-container">
+            <div id="about-me" class="main-container">
                 <div class="section-title">
                     <h1>Bullshit Anime Protagonist Backstory</h1>
                 </div>
@@ -65,9 +77,9 @@
         </section>
 
         <section class="s1">
-            <div class="main-container">
+            <div id="portofolio" class="main-container">
                 <div class="section-title">
-                    <h1>portofolio</h1>
+                    <h1>Shits I've Done</h1>
                     <p>lol, you thought i'm a productive student with a lot of project?</p>
                     <p></p>
                 </div>
@@ -75,18 +87,52 @@
         </section>
 
         <section class="s2">
-            <div class="main-container">
+            <div  id="contact" class="main-container">
                 <div class="section-title">
                     <h1>Hit Me Up</h1>
                 </div>
-            <div>
-                <p>If you think, "screw it, this lad is interesting", then send me a death threat to my totally legit email: 
-                <a href="mailto:spamdefender29@gmail.com">SpamOniichan</a> 
-                </p>
-            </div>
+                <div>
+                    <p>
+                        If you think, "screw it, this lad is interesting", then send me a death threat to my totally legit email: 
+                        <a href="mailto:spamdefender29@gmail.com">SpamOniichan</a>
+                    </p>
+                    <p>or:</p>
+                    <div class="contact-form">
+                        <form action="#" method="POST">
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="email" name="Email" id="email" placeholder="someone@some-mail.com" required>
+                            </div>
+                            <div>
+                                <label for="subject">Subject:   </label>
+                                <input type="text" name="Subject" id="subject" required>
+                            </div>
+                            <div>
+                                <label for="form-content">Message:  </label>
+                                <!--<input type="textarea" name="Content" id="form-content" rows="5" cols="40"  required>-->
+                                <textarea name="Form Content" id="form-content" cols="30" rows="10"></textarea>
+                            </div>
+                            <button type="submit" id="submit-button">Submit</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
-
+        <section class="s1">
+            <div class="main-container">
+                <div class="section-title">
+                    <h1>Extra</h1>
+                </div>
+                <div>
+                    <p>Online Test:</p>
+                    <ul>
+                        <li><a href="bsp_quiz.htm">Quiz With MCQ and Short Answer</a></li>
+                        <li><a href="bsp_quiz_2.htm">Quit With Fill in the Blank</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </section>
 
     </body>
 </html>
